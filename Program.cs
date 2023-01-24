@@ -6,8 +6,8 @@
         Console.WriteLine("Enter array element:");
         array[i] = Convert.ToString(Console.ReadLine());
     }
-    return array;
     Console.WriteLine();
+    return array;
 }
 
 void ShowArray(string [] array)
@@ -16,6 +16,7 @@ void ShowArray(string [] array)
     {
         Console.Write($" \"{array[i]}\" ");
     } 
+    Console.WriteLine();
 }
 
 string [] NewArrayLess3Symbol(string [] myarray)
